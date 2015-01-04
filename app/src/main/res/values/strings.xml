@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FLady</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <array name="fruits">
+        <item>@drawable/fruit1</item>
+        <item>@drawable/fruit2</item>
+        <item>@drawable/fruit3</item>
+        <item>@drawable/fruit4</item>
+        <item>@drawable/fruit5</item>
+    </array>
+</resources>
