@@ -54,16 +54,17 @@ public class LadyActivity extends Activity implements View.OnTouchListener {
                 mlayoutParams = new RelativeLayout.LayoutParams(
                         mFruitWidth,
                         mFruitHeight);
+                Log.i("y", String.valueOf(view.getY()));
 
                 switch((int) view.getY()) {
-                    case 246:
-                        mlayoutParams.topMargin = 225;
-                        mlayoutParams.leftMargin = 204;
+                    case 245:
+                        mlayoutParams.topMargin = 245;
+                        mlayoutParams.leftMargin = 225;
                         generateFruitOnTits();
                         break;
-                    case 521:
+                    case 500:
                         mlayoutParams.topMargin = 500;
-                        mlayoutParams.leftMargin = 235;
+                        mlayoutParams.leftMargin = 245;
                         generateFruitOnTits();
                         break;
                     default:
